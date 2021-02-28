@@ -19,3 +19,11 @@ body {
 .last:hover {
     color: red;
 }
+
+.burger {
+    width: 40px;
+}
+.burger div {
+    height: 2px;
+    background-color: black;
+}

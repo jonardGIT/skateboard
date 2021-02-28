@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/tailwind.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!--All JS FontAwesome Icons-->
+    <script src="./js/all.js" defer></script>
     <title>Skateboard</title>
 </head>
 <body>
-    
+
     <div class="container mx-auto">
         <nav>
             <div class="flex justify-between items-end">
                 <ul class="flex  gap-12">
-                    <li><a href="">Burger</a></li>
+                    <li><a href="">
+                        <div class="burger flex flex-col gap-2">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a></li>
                     <li><a href="">Collections</a></li>
                     <li><a href="">Categories</a></li>
                 </ul>
@@ -23,8 +31,14 @@
                     <span class="font-black text-2xl">Victorinox</span>
                 </a>
                 <ul class="flex items-end gap-12">
-                    <li><a href="">Search</a></li>
-                    <li><a href="">Cart</a></li>
+                    <li class="flex gap-2 items-center">
+                        <i class="fas fa-search"></i>
+                        <a href="">Search</a>
+                    </li>
+                    <li class="flex gap-2 items-center">
+                        <i class="fas fa-shopping-cart"></i>
+                        <a href="">0</a>
+                    </li>
                     <li><a href="">En</a></li>
                 </ul>
             </div>
