@@ -1,0 +1,21 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.slider {
+    min-height: 600px;
+}
+.card img {
+    min-width: 250px;
+    height: 400px;
+}
+.card img:hover {
+    transition: 0.5s;
+    transition-timing-function:cubic-bezier(1, 0, 0, 1);
+    transition-delay: 05.s;
+    min-width: 350px;
+    height: 500px;
+}
+.last:hover {
+    color: red;
+}
